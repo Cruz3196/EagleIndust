@@ -2,11 +2,10 @@
     background-image: url(../../assets//SunSetHero\ .jpg);
     background-size: cover;
     background-position: center;
-    max-height: 100%; 
+    height: 100vh; 
     max-width: 100%; 
     position: relative;
     overflow: hidden;
-    padding-top: 120px;
 }
 
 .hero::before {
@@ -21,20 +20,20 @@
 }
 
 .hero-text {
+    display: flex;
     position: relative;
     text-transform: uppercase;
     color: white;
     font-size: clamp(2rem, 5vw, 3rem);
     text-align: center;
     z-index: 2;
-    margin-top: 350px; 
-    padding: 20px;
+    margin-top: 300px;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
     .hero {
-        height: 80vh; 
+        height: 100vh; 
     }
     .hero-text {
         font-size: clamp(1.5rem, 4vw, 2.5rem);
@@ -45,23 +44,24 @@
 
 @media (max-width: 640px) {
     .hero {
-        height: 75vh; 
+        height: 100vh; 
         background-position: center center; 
     }
     .hero-text {
         font-size: clamp(1.4rem, 3.5vw, 2.2rem);
-        margin-top: 280px;
+        margin-top: 300px;
         padding: 12px;
     }
 }
 
 @media (max-width: 457px) {
     .hero {
-        max-width: 100%;
+        height: 100vh; 
+        background-position: center center; 
     }
     .hero-text {
         font-size: clamp(1.2rem, 3vw, 2rem); 
-        margin-top: 250px;
+        margin-top: 300px;
         padding: 10px;
     }
 }
