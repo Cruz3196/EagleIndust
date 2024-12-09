@@ -23,7 +23,7 @@
 
 @media (max-width: 768px) {
     .BannerTwo-section {
-        background-size: 100% cover; 
+        background-size: 100% center center; 
     }
 
     .BannerTwo-Header {
@@ -42,7 +42,7 @@
 
 @media (max-width: 640px) {
     .BannerTwo-section {
-        background-size: 100% cover; 
+        background-size: 100% center center; 
     }
 
     .BannerTwo-Header {
@@ -60,7 +60,7 @@
 
 @media (max-width: 457px) {
     .BannerTwo-section {
-        background-size: 100% cover; 
+        background-size: 100% center center; 
     }
 
     .BannerTwo-Header {
