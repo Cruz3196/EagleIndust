@@ -1,0 +1,106 @@
+.BannerOne-Section{
+    background-image: url("../../../assets//WaterTank.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.BannerOne-Section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Semi-dark gradient */
+    z-index: 1;
+}
+.BannerOne-Content{
+    margin: 60px auto;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+.BannerOne-Header{
+    font-size: 1.5rem;
+}
+.BannerOne-Content p{
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .BannerOne-Section {
+        height: 75vh; /* Adjust height for smaller tablets */
+    }
+
+    .BannerOne-Content {
+        margin: 60px auto; /* Reduce margin */
+    }
+
+    .BannerOne-Header {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .BannerOne-Content p {
+        font-size: 1.1rem;
+        max-width: 600px;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 600px) {
+    .BannerOne-Section {
+        height: 80vh;
+    }
+
+    .BannerOne-Content {
+        margin: 60px auto;
+    }
+
+    .BannerOne-Header {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .BannerOne-Content p {
+        font-size: 1rem; 
+        max-width: 500px;
+        margin: 0 auto 1.5rem auto;
+        text-align: center;
+        line-height: 1.5;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 457px) {
+    .BannerOne-Section {
+        height: 100vh; 
+    }
+
+    .BannerOne-Content {
+        margin: 60px auto; 
+    }
+
+    .BannerOne-Header {
+        font-size: 1.2rem; 
+        text-align: center;
+    }
+
+    .BannerOne-Content p {
+        font-size: 0.840rem;
+        max-width: 400px;
+        line-height: 1.8rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
