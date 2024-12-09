@@ -31,6 +31,45 @@
 }
 
 /* Media Queries */
+
+/* For screens up to 1536px */
+@media (max-width: 1536px) {
+    .hero {
+        height: 100vh; 
+        background-position: center center; 
+    }
+    .hero-text {
+        font-size: clamp(3.5rem, 5.5vw, 5rem);
+        margin-top: 300px;
+        padding: 30px;
+    }
+}
+/* For screens up to 1280px */
+@media (max-width: 1280px) {
+    .hero {
+        height: 100vh; 
+        background-position: center center; 
+    }
+    .hero-text {
+        font-size: clamp(3rem, 5vw, 4.5rem);
+        margin-top: 300px;
+        padding: 25px;
+    }
+}
+
+/* For screens up to 1024px */
+@media (max-width: 1024px) {
+    .hero {
+        height: 100vh; 
+        background-position: center center; 
+    }
+    .hero-text {
+        font-size: clamp(2.5rem, 4.5vw, 4rem);
+        margin-top: 300px;
+        padding: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .hero {
         height: 100vh; 
