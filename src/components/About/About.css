@@ -49,8 +49,9 @@
 
 .image-content img{
     max-height: 90vh;
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 40px;
+    margin-bottom: 40px;
     object-fit: cover;
     align-items: center;
     justify-content: center;
@@ -59,10 +60,11 @@
 }
 
 /* Responsive About  */
+
 /* Responsive Adjustments for 1536px, 1280px, and 1024px */
 @media (max-width: 1536px), (max-width: 1280px), (max-width: 1024px) {
     .about-section {
-        flex-direction: row; /* Keep side-by-side layout */
+        flex-direction: row; 
     }
 
     .about-content {
@@ -70,16 +72,16 @@
     }
 
     .about-text h2 {
-        font-size: 1.8rem; /* Adjusted font size */
+        font-size: 1.8rem; 
     }
 
     .about-text p {
-        font-size: 1.1rem; /* Adjusted font size */
+        font-size: 1.1rem;
         line-height: 1.8;
     }
 
     .image-content img {
-        max-width: 70%; /* Slightly smaller image */
+        max-width: 100%; /* Slightly smaller image */
     }
 }
 @media (max-width: 768px){
