@@ -1,8 +1,7 @@
 .BannerTwo-section{
     background-image: url(../../../assets//BannerTwo.jpg);
-    background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     height: 60vh;
     width: 100%;
     justify-content: flex-start;
