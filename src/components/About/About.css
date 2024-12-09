@@ -80,7 +80,7 @@
     }
 
     .image-content img {
-        max-width: 70%; /* Slightly smaller image */
+        max-width: 90%; /* Slightly smaller image */
     }
 }
 @media (max-width: 768px){
