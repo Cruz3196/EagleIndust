@@ -2,7 +2,7 @@
     background-color: transparent;
     min-width: 100%;
     max-height: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     align-items: center;
     justify-content: space-between;
     z-index: 10;
@@ -13,8 +13,11 @@
 /* NAVBAR LEFT SIDE  */
 .navbar-left{
     margin-right: auto;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
 }
+
 .brand {
     font-size: 1.5rem;
     font-weight: bold;
@@ -33,7 +36,10 @@
 
 /* NAVBAR FOR THE RIGHT SIDE  */
 .navbar-right{
-    margin-left: auto;
+    margin-left: auto;    
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .nav-links {
@@ -185,7 +191,7 @@
     }
     #hamburger {
         display: flex;
-        margin-top: 8px; 
+        margin-top: 3px; 
     }
     .navbar-right.open{
         display: flex;
@@ -257,7 +263,7 @@
         display: flex; 
         width: 35px; 
         height: 25px; 
-        margin-top: 8px;
+        margin-top: 12px;
         flex-direction: column;
         justify-content: space-between;
         z-index: 20;
@@ -317,6 +323,10 @@
 /* SMALLER DEVICES  */
 
 @media (max-width: 457px) {
+    .navbar-left{
+        margin-right: auto;
+        margin-top: 10px;
+    }
     .brand{
         font-size: 1.0rem;
         margin-left: 10px;
@@ -324,6 +334,7 @@
     #hamburger {
         width: 30px;
         height: 20px;
+        margin-top: 10px;
         margin-right: 10px; 
     }
 
