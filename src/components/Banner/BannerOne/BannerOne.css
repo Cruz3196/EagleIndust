@@ -37,11 +37,12 @@
 
 @media (max-width: 768px) {
     .BannerOne-Section {
-        height: 75vh; /* Adjust height for smaller tablets */
+        height: 80vh; /* Adjust height for smaller tablets */
     }
 
     .BannerOne-Content {
-        margin: 60px auto; /* Reduce margin */
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .BannerOne-Header {
@@ -63,7 +64,8 @@
     }
 
     .BannerOne-Content {
-        margin: 60px auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .BannerOne-Header {
@@ -74,7 +76,6 @@
     .BannerOne-Content p {
         font-size: 1rem; 
         max-width: 500px;
-        margin: 0 auto 1.5rem auto;
         text-align: center;
         line-height: 1.5;
         padding-left: 5px;
@@ -88,7 +89,8 @@
     }
 
     .BannerOne-Content {
-        margin: 60px auto; 
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .BannerOne-Header {
