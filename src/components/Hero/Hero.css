@@ -33,19 +33,19 @@
 /* Media Queries */
 @media (max-width: 768px) {
     .hero {
-        height: 80vh; /* Slightly reduced height for tablets */
+        height: 80vh; 
     }
     .hero-text {
         font-size: clamp(1.5rem, 4vw, 2.5rem);
-        margin-top: 300px; /* Adjust spacing */
+        margin-top: 300px; 
         padding: 15px;
     }
 }
 
 @media (max-width: 640px) {
     .hero {
-        height: 75vh; /* Reduce further for smaller devices */
-        background-position: center center; /* Adjust background alignment */
+        height: 75vh; 
+        background-position: center center; 
     }
     .hero-text {
         font-size: clamp(1.4rem, 3.5vw, 2.2rem);
@@ -56,7 +56,7 @@
 
 @media (max-width: 457px) {
     .hero {
-        height: 70vh; /* Further reduction for mobile */
+        height: 70vh;
     }
     .hero-text {
         font-size: clamp(1.2rem, 3vw, 2rem); 
