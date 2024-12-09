@@ -21,7 +21,6 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding-left: 2rem;
 }
 
 #borderlineTwo {
@@ -37,7 +36,6 @@
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 60px; 
-    padding-left: 2rem;
 }
 
 /* Responsive FooterTwo */
@@ -57,7 +55,6 @@
         font-size: 2.0rem;
         margin-top: 20px;
         margin-bottom: 50px;
-        padding-left: 2rem;
     }
 
     #borderlineTwo {
@@ -69,7 +66,6 @@
     .FooterTwo-Ending {
         font-size: 1.5rem;
         margin-top: 50px; 
-        padding-left: 2rem;
         width: 75%;
     }
 }
@@ -90,7 +86,6 @@
         font-size: 1.8rem;
         margin-top: 15px;
         margin-bottom: 40px;
-        padding-left: 2rem;
     }
 
     #borderlineTwo {
@@ -103,7 +98,6 @@
     .FooterTwo-Ending {
         font-size: 1.2rem;
         margin-top: 40px; 
-        padding-left: 2rem;
         width: 50%;
     }
 }
@@ -121,7 +115,6 @@
         font-size: 1.0rem;
         margin-top: 10px;
         margin-bottom: 20px;
-        padding-left: 0.8rem;
         width: 80%;
     }
 
@@ -134,7 +127,6 @@
         font-size: 0.8rem;
         margin-top: 20px;
         margin-right: auto;
-        padding-left: 0.8rem;
         width: 80%;
     }
 }
