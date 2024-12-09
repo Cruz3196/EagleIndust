@@ -51,7 +51,6 @@
     max-height: 90vh;
     max-width: 100%;
     margin-top: 40px;
-    margin-bottom: 40px;
     object-fit: cover;
     align-items: center;
     justify-content: center;
@@ -81,7 +80,7 @@
     }
 
     .image-content img {
-        max-width: 100%; /* Slightly smaller image */
+        max-width: 70%; /* Slightly smaller image */
     }
 }
 @media (max-width: 768px){
