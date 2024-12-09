@@ -1,8 +1,7 @@
 .hero {
-    background-image: url(../../assets/SunSetHero\ .jpg);
+    background-image: url(../../assets//SunSetHero\ .jpg);
     background-size: cover;
-    background-position: center bottom;
-    background-attachment: fixed;
+    background-position: center;
     height: 100vh; 
     width: 100%; 
     position: relative;
@@ -33,28 +32,31 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
+    .hero {
+        height: 80vh; /* Slightly reduced height for tablets */
+    }
     .hero-text {
         font-size: clamp(1.5rem, 4vw, 2.5rem);
-        padding: 15px; 
+        margin-top: 300px; /* Adjust spacing */
+        padding: 15px;
     }
 }
 
 @media (max-width: 640px) {
     .hero {
-        background-size: contain; /* Ensure the image fits within the viewport */
-        background-position: center center; /* Center the image */
+        height: 75vh; /* Reduce further for smaller devices */
+        background-position: center center; /* Adjust background alignment */
     }
     .hero-text {
-        font-size: clamp(1.3rem, 3.5vw, 2.2rem);
-        margin-top: 300px; 
-        padding: 15px; 
+        font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+        margin-top: 280px;
+        padding: 12px;
     }
 }
 
 @media (max-width: 457px) {
     .hero {
-        background-size: cover; /* Maintain cover but adjust positioning */
-        background-position: center top; /* Show the top part of the image */
+        height: 70vh; /* Further reduction for mobile */
     }
     .hero-text {
         font-size: clamp(1.2rem, 3vw, 2rem); 
