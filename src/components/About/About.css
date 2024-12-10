@@ -59,15 +59,13 @@
         background-color: white;
         flex-direction: column;
         align-items: center;
-        height: 130vh;
+        height: 120vh;
     }
     .about-content{
         order: 2;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-bottom: 40px; 
-        margin-top: 40px; 
     }
     .about-text h2 {
         display: flex;
@@ -80,15 +78,17 @@
     .about-text p {
         display: flex;
         text-align: left;
-        margin-bottom: 2rem;
         line-height: 1.6;
         font-size: 1.1rem;
         color: #374151;
     }
     .image-content img{
-        margin-top: 50px;
-        height: 60vh;
+        height: 50vh;
+        width: 80vh;
         order: 1;
+    }
+    .image-content{
+        height: 50%;
     }
 }
 /* sm (max-width: 640px) */
