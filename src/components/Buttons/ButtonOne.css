@@ -13,14 +13,7 @@
 .ButtonOne:hover{
     background-color: #0476D0;
 }
-/* Responsive Button Styling */
-@media (max-width: 1024px){
-    .ButtonOne {
-        padding: 1rem 1.5rem; 
-        font-size: 0.9rem;
-        margin-left: 30px;
-    }
-}
+
 @media (max-width: 768px) {
     .ButtonOne {
         padding: 1rem 1.5rem; 
