@@ -53,6 +53,114 @@
 
 /* Responsive About  */
 
+/* 2xl */
+@media (max-width: 1536px){
+    .about-section{
+        min-height: 100vh;
+        width: 100%;
+        background-color: white;
+    }
+/* about content  */
+    .about-content{
+        max-width: 50%;
+        height: 100%;
+    }
+    .about-text{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+    .about-text h2{
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .about-text p{
+        width: 90%;
+        padding-top: 20px;
+    }
+/* image content  */
+    .image-content{
+        width: 50%;
+        height: 100%;
+    }
+    .image-content img{
+        width: 90%;
+    }
+}
+/* xl */
+@media (max-width: 1280px){
+    .about-section{
+        min-height: 100vh;
+        width: 100%;
+        background-color: white;
+    }
+/* about content  */
+    .about-content{
+        max-width: 50%;
+        height: 100%;
+    }
+    .about-text{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .about-text h2{
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .about-text p{
+        width: 90%;
+        padding-top: 20px;
+    }
+/* image content  */
+    .image-content{
+        width: 50%;
+        height: 100%;
+    }
+    .image-content img{
+        width: 90%;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px){
+    .about-section{
+        min-height: 100vh;
+        width: 100%;
+        background-color: white;
+    }
+/* about content  */
+    .about-content{
+        max-width: 50%;
+        height: 100%;
+    }
+    .about-text{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+    .about-text h2{
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .about-text p{
+        width: 90%;
+        padding-top: 20px;
+    }
+/* image content  */
+    .image-content{
+        width: 50%;
+        height: 100%;
+    }
+    .image-content img{
+        width: 90%;
+    }
+}
+
 @media (max-width: 768px){
     .about-section{
         display: flex;
