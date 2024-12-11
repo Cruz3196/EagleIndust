@@ -9,11 +9,17 @@
 
 /* About Content  */
 .about-content{
+    height: 100%;
+    width: 50%;
     margin-right: auto;
 }
 
 .about-text{
-    margin-bottom: 2rem;
+    width: 90%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .about-text h2 {
     display: flex;
@@ -34,7 +40,7 @@
 
 /* Image Content  */
 .image-content{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -42,7 +48,7 @@
 
 .image-content img{
     max-height: 90vh;
-    max-width: 100%;
+    max-width: 90%;
     margin-top: 40px;
     object-fit: cover;
     align-items: center;
