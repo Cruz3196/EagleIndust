@@ -1,3 +1,22 @@
+![Screenshot 2024-12-10 at 21-24-20 React App](https://github.com/user-attachments/assets/6c0d2370-ee82-4c24-9449-66d7d5c95dae)
+
+![Screenshot 2024-12-10 at 21-26-36 React App](https://github.com/user-attachments/assets/8a81c2d3-ea98-4710-8b9d-a961423179d4)
+
+![Screenshot 2024-12-10 at 21-30-31 React App](https://github.com/user-attachments/assets/1cb1c193-212d-4a2d-be42-a83f41e92403)
+
+![Screenshot 2024-12-10 at 21-30-39 React App](https://github.com/user-attachments/assets/4dffcf4e-18c8-406b-8de8-5f69e1c5f271)
+
+# Eagle Industrial 
+
+This project was based off my other repo, but unfornately realized that the other repo was not responsive ready :(
+
+So I decided to make another project that that was more responsive and maybe add some more features!
+
+PLEASE BEWARE THIS IS NOT THE FINISH REPO AND IS STILL UNDER CONSTRUCTION!!!
+
+this app is hosted on netlify https://eagleindust.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
