@@ -5,52 +5,46 @@ import './Navbar.css';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const location = useLocation();  //this is going to set the location of the path 
-
-    const isNavbar2 = location.pathname === '#' || location.pathname === '#';
+    const location = useLocation();  // This sets the location of the path 
 
     const handleToggle = () => {
         setMenuOpen(!menuOpen);
     };
 
     return (
-        <nav className={`navbar ${isNavbar2 ? 'navbar2' : ''}`} 
-            style={{
-                backgroundColor: isNavbar2 ? 'white' : 'transparent',
-            }}
-        >
-          <Container>
-            <div className={`navbar-left ${isNavbar2 ? 'navbar2' : ''}`}>
-                <a href='/' className={`brand ${menuOpen ? 'open' : ''} ${isNavbar2 ? 'navbar2-brand' : ''}`}>
-                    Eagle Industrial 
-                </a>
-            </div>
-        
-            {/* Nav Menu */}
-            <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
-                <ul className={`nav-links ${isNavbar2 ? 'navbar2-links' : ''}`}>
-                    <li className='nav-item'>
-                        <a href='#' className={`${location.pathname === '#' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>About</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#' className={`${location.pathname === '#' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Services</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#' className={`${location.pathname === '#' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Safety</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#' className={`${location.pathname === '#' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Contact</a>
-                    </li>
-                </ul>
-            </div>
-        
-            {/* Hamburger Icon */}
-            <div id="hamburger" className={menuOpen ? 'open' : ''} onClick={handleToggle}>
-                <span className={isNavbar2 ? 'navbar2-hamburger' : ''}></span>
-                <span className={isNavbar2 ? 'navbar2-hamburger' : ''}></span>
-                <span className={isNavbar2 ? 'navbar2-hamburger' : ''}></span>
-            </div>
-          </Container>
+        <nav className="navbar">
+            <Container>
+                <div className="navbar-left">
+                    <a href="/" className={`brand ${menuOpen ? 'open' : ''}`}>
+                        Eagle Industrial 
+                    </a>
+                </div>
+            
+                {/* Nav Menu */}
+                <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
+                    <ul className="nav-links">
+                        <li className="nav-item">
+                            <a href="#about" className={`${location.pathname === '/about' ? 'active' : ''}`}>About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#services" className={`${location.pathname === '/services' ? 'active' : ''}`}>Services</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#safety" className={`${location.pathname === '/safety' ? 'active' : ''}`}>Safety</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#contact" className={`${location.pathname === '/contact' ? 'active' : ''}`}>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            
+                {/* Hamburger Icon */}
+                <div id="hamburger" className={menuOpen ? 'open' : ''} onClick={handleToggle}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </Container>
         </nav>
     );
 };
