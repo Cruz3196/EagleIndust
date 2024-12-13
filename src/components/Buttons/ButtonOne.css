@@ -39,10 +39,10 @@
 
 @media (max-width: 457px) {
     .ButtonOne {
-        padding: 0.7rem 0.3rem;
+        padding: 1.0rem 0.6rem;
         font-size: 0.6rem;
         margin-top: 10px;
-        margin-left: 10rem;
-        margin-bottom: 10px; 
+        margin-left: 9rem;
+        margin-bottom: 9px; 
     }
 }

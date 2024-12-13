@@ -62,7 +62,7 @@
         background-color: white;
         flex-direction: column;
         align-items: center;
-        height: 130vh;
+        height: 150vh;
     }
     .about-content{
         order: 2;
@@ -107,7 +107,7 @@
         display: flex;
         background-color: white;
         flex-direction: column;
-        height: 130vh;
+        height: 150vh;
     }
     .about-content{
         order: 2;
@@ -158,7 +158,7 @@
         background-color: white;
         flex-direction: column;
         align-items: center;
-        height: 130vh;
+        height: 160vh;
     }
     .about-content{
         order: 2;
