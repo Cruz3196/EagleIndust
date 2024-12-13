@@ -7,7 +7,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const location = useLocation();  //this is going to set the location of the path 
 
-    const isNavbar2 = location.pathname === '/Services' || location.pathname === '/Contact';
+    const isNavbar2 = location.pathname === '#' || location.pathname === '#';
 
     const handleToggle = () => {
         setMenuOpen(!menuOpen);
