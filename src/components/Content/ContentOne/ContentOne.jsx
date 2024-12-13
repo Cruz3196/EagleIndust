@@ -7,10 +7,10 @@ const ContentOne = () => {
     <Container>
         <section className='ContentOne-Section'>
             <div className='ContentOne-Content'>
-                <div className='ContentOne-Header' data-aos='fade-up'>
+                <div className='ContentOne-Header'>
                     <h1>Our Commitment to Safety.</h1>
                 </div>
-                <div className='ContentOne-Info' data-aos='fade-up'>
+                <div className='ContentOne-Info'>
                     <p>
                     Our work begins with our people. At Eagle Industrial, the safety of our clients and employees is our top priority and at the core of our business.
                     </p>
