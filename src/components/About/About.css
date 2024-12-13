@@ -91,13 +91,12 @@
         color: #374151;
     }
     .image-content img{
-        margin-top: auto;
-        height: 50vh;
+        height: 70vh;
         width: 80vh;
         order: 1;
     }
     .image-content{
-        height: 40%;
+        height: 50%;
         width: 100%;
     }
 }
