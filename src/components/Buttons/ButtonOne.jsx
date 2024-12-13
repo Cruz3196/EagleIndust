@@ -10,9 +10,11 @@ const ButtonOne = () => {
   };
 
   return (
-    <button onClick={handleClick} className='ButtonOne'>
-        OUR COMMITMENT TO SAFETY
-    </button>
+    <div className='ButtonOne-Container'>
+        <button onClick={handleClick} className='ButtonOne'>
+          OUR COMMITMENT TO SAFETY
+        </button>
+    </div>
   )
 }
 
