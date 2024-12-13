@@ -8,7 +8,7 @@
 
 .ButtonOne {
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 1.8rem;
     background-color: #3b82f6;
     color: white;
     border: none;
@@ -27,10 +27,13 @@
         height: 15%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .ButtonOne {
-        padding: 0.8rem 1.2rem; 
-        font-size: 0.9rem;
+        width: 40%;
+        height: 70%;
+        padding: 0.4rem 0.8rem; 
+        font-size: 0.8rem;
     }
 }
 
@@ -39,6 +42,7 @@
         height: 15%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .ButtonOne {
         padding: 0.7rem 1.0rem; 
