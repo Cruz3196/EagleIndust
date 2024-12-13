@@ -14,7 +14,6 @@ So I decided to make another project that that was more responsive and maybe add
 
 PLEASE BEWARE THIS IS NOT THE FINISH REPO AND IS STILL UNDER CONSTRUCTION!!!
 
-this app is hosted on netlify https://eagleindust.netlify.app/
 
 
 # Getting Started with Create React App
