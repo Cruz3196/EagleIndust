@@ -6,7 +6,7 @@ const ButtonOne = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/Safety');
+    navigate('#');
   };
 
   return (

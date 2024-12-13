@@ -6,7 +6,7 @@ const BannerTwoButton = () => {
     const navigate = useNavigate();
     
     const handleClick =(() => {
-    navigate('/Services')
+    navigate('#')
 })
 
 return (

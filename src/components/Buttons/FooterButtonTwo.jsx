@@ -6,7 +6,7 @@ const FooterButtonTwo = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/Contact')
+    navigate('#')
   }
 
   return (

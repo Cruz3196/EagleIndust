@@ -30,16 +30,16 @@ const Navbar = () => {
             <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
                 <ul className={`nav-links ${isNavbar2 ? 'navbar2-links' : ''}`}>
                     <li className='nav-item'>
-                        <a href='/About' className={`${location.pathname === '/About' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>About</a>
+                        <a href='#' className={`${location.pathname === '/About' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Services' className={`${location.pathname === '/Services' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Services</a>
+                        <a href='#' className={`${location.pathname === '/Services' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Services</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Safety' className={`${location.pathname === '/Safety' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Safety</a>
+                        <a href='#' className={`${location.pathname === '/Safety' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Safety</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Contact' className={`${location.pathname === '/Contact' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Contact</a>
+                        <a href='#' className={`${location.pathname === '/Contact' ? 'active' : ''} ${isNavbar2 ? 'navbar2-link' : ''}`}>Contact</a>
                     </li>
                 </ul>
             </div>

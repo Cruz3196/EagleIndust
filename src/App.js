@@ -1,4 +1,4 @@
-import { Home, About, Services, Safety, Contact } from "./pages/index";
+import { Home} from "./pages/index";
 import { Navbar } from "./components/index";
 import Aos from "aos";
 import 'aos/dist/aos.css'; // Import AOS styles globally
@@ -18,10 +18,10 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/About' element={<About/>}/>
+        {/* <Route path='/About' element={<About/>}/>
         <Route path='/Services' element={<Services/>}/>
         <Route path='/Safety' element={<Safety/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Contact' element={<Contact/>}/> */}
       </Routes>
     </Router>
   );  
