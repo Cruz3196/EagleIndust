@@ -18,16 +18,31 @@
     .ButtonOne {
         padding: 1rem 1.5rem; 
         font-size: 0.9rem;
-        margin-top: 50px; 
-        margin-bottom: 50px;
+        margin-top: 20px; 
+        margin-bottom: 60px;
+        margin-left: 11rem;
+        margin-right: 11rem;
     }
 }
+
+@media (max-width: 640px) {
+    .ButtonOne {
+        padding: 0.7rem 1.5rem; 
+        font-size: 0.9rem;
+        margin-top: 20px; 
+        margin-bottom: 60px;
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+
 
 @media (max-width: 457px) {
     .ButtonOne {
         padding: 0.7rem 0.3rem;
         font-size: 0.6rem;
         margin-top: 10px;
+        margin-left: 10rem;
         margin-bottom: 10px; 
     }
 }
