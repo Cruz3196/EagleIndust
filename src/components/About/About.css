@@ -46,12 +46,12 @@
 .image-content img{
     max-height: 90vh;
     max-width: 90%;
+    padding-left: 4rem;
     margin-top: 40px;
     object-fit: cover;
     align-items: center;
     justify-content: center;
     border-radius: 0.5;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive About  */
@@ -91,11 +91,16 @@
         color: #374151;
     }
     .image-content img{
+        padding-right: 4rem;
+        padding-left: 4rem;
         height: 70vh;
         width: 80vh;
         order: 1;
     }
     .image-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 50%;
         width: 100%;
     }
